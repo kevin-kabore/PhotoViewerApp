@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		2A211B251CA9C962004EA330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B241CA9C962004EA330 /* main.m */; };
 		2A211B281CA9C962004EA330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B271CA9C962004EA330 /* AppDelegate.m */; };
-		2A211B2B1CA9C962004EA330 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B2A1CA9C962004EA330 /* ViewController.m */; };
 		2A211B2E1CA9C962004EA330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A211B2C1CA9C962004EA330 /* Main.storyboard */; };
 		2A211B301CA9C962004EA330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A211B2F1CA9C962004EA330 /* Assets.xcassets */; };
 		2A211B331CA9C962004EA330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A211B311CA9C962004EA330 /* LaunchScreen.storyboard */; };
 		2A211B3E1CA9C962004EA330 /* PhotoViewerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B3D1CA9C962004EA330 /* PhotoViewerAppTests.m */; };
 		2A211B491CA9C962004EA330 /* PhotoViewerAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B481CA9C962004EA330 /* PhotoViewerAppUITests.m */; };
+		2A211B771CAB18F9004EA330 /* PhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B761CAB18F9004EA330 /* PhotosTableViewController.m */; };
+		2A211B7A1CAB1936004EA330 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B791CAB1936004EA330 /* DisplayViewController.m */; };
+		2A211B7D1CAB1943004EA330 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B7C1CAB1943004EA330 /* InfoViewController.m */; };
+		2A211B801CAB1D30004EA330 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A211B7F1CAB1D30004EA330 /* Photo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		2A211B241CA9C962004EA330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A211B261CA9C962004EA330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A211B271CA9C962004EA330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A211B291CA9C962004EA330 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A211B2A1CA9C962004EA330 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2A211B2D1CA9C962004EA330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A211B2F1CA9C962004EA330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A211B321CA9C962004EA330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 		2A211B441CA9C962004EA330 /* PhotoViewerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A211B481CA9C962004EA330 /* PhotoViewerAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerAppUITests.m; sourceTree = "<group>"; };
 		2A211B4A1CA9C962004EA330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A211B751CAB18F9004EA330 /* PhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosTableViewController.h; sourceTree = "<group>"; };
+		2A211B761CAB18F9004EA330 /* PhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosTableViewController.m; sourceTree = "<group>"; };
+		2A211B781CAB1936004EA330 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		2A211B791CAB1936004EA330 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		2A211B7B1CAB1943004EA330 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		2A211B7C1CAB1943004EA330 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		2A211B7E1CAB1D30004EA330 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		2A211B7F1CAB1D30004EA330 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +110,18 @@
 		2A211B221CA9C962004EA330 /* PhotoViewerApp */ = {
 			isa = PBXGroup;
 			children = (
-				2A211B261CA9C962004EA330 /* AppDelegate.h */,
 				2A211B271CA9C962004EA330 /* AppDelegate.m */,
-				2A211B291CA9C962004EA330 /* ViewController.h */,
-				2A211B2A1CA9C962004EA330 /* ViewController.m */,
+				2A211B261CA9C962004EA330 /* AppDelegate.h */,
 				2A211B2C1CA9C962004EA330 /* Main.storyboard */,
+				2A211B781CAB1936004EA330 /* DisplayViewController.h */,
+				2A211B791CAB1936004EA330 /* DisplayViewController.m */,
+				2A211B7B1CAB1943004EA330 /* InfoViewController.h */,
+				2A211B7C1CAB1943004EA330 /* InfoViewController.m */,
+				2A211B751CAB18F9004EA330 /* PhotosTableViewController.h */,
+				2A211B761CAB18F9004EA330 /* PhotosTableViewController.m */,
 				2A211B2F1CA9C962004EA330 /* Assets.xcassets */,
+				2A211B7E1CAB1D30004EA330 /* Photo.h */,
+				2A211B7F1CAB1D30004EA330 /* Photo.m */,
 				2A211B311CA9C962004EA330 /* LaunchScreen.storyboard */,
 				2A211B341CA9C962004EA330 /* Info.plist */,
 				2A211B231CA9C962004EA330 /* Supporting Files */,
@@ -270,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A211B2B1CA9C962004EA330 /* ViewController.m in Sources */,
+				2A211B801CAB1D30004EA330 /* Photo.m in Sources */,
+				2A211B7A1CAB1936004EA330 /* DisplayViewController.m in Sources */,
+				2A211B7D1CAB1943004EA330 /* InfoViewController.m in Sources */,
 				2A211B281CA9C962004EA330 /* AppDelegate.m in Sources */,
+				2A211B771CAB18F9004EA330 /* PhotosTableViewController.m in Sources */,
 				2A211B251CA9C962004EA330 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
